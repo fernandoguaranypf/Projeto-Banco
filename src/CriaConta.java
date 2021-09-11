@@ -6,7 +6,10 @@ public class CriaConta {
 		primeiraConta.saldo = 200;
 		System.out.println(primeiraConta.saldo);
 		
+		primeiraConta.saldo += 100;
+		System.out.println(primeiraConta.saldo);
 
 	}
 
 }
+	
