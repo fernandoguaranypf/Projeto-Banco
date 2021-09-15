@@ -2,7 +2,9 @@
 public class TestMetodo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Conta contaDoFernando = new Conta();
+		contaDoFernando.saldo = 100;
+		contaDoFernando.deposita(50);
 
 	}
 

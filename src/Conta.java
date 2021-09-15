@@ -5,4 +5,8 @@ public class Conta {
 	int numero = 10;
 	String titular;
 	
+	public void deposita( double valor) {
+		this.saldo = this.saldo + 50;
+	}
+	
 }
