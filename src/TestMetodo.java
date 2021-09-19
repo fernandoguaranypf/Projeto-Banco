@@ -6,7 +6,7 @@ public class TestMetodo {
 		contaDoFernando.saldo = 100;
 		contaDoFernando.deposita(50);
 		System.out.println(contaDoFernando.saldo);
-		contaDoFernando.saca(20);
+		boolean conseguiuRetirar  = contaDoFernando.saca(20);
 		System.out.println(contaDoFernando.saldo);
 
 	}
