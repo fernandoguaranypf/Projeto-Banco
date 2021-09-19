@@ -5,6 +5,9 @@ public class TestMetodo {
 		Conta contaDoFernando = new Conta();
 		contaDoFernando.saldo = 100;
 		contaDoFernando.deposita(50);
+		System.out.println(contaDoFernando.saldo);
+		contaDoFernando.saca(20);
+		System.out.println(contaDoFernando.saldo);
 
 	}
 
