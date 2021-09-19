@@ -8,6 +8,7 @@ public class TestMetodo {
 		System.out.println(contaDoFernando.saldo);
 		boolean conseguiuRetirar  = contaDoFernando.saca(20);
 		System.out.println(contaDoFernando.saldo);
+		System.out.println(conseguiuRetirar);
 
 	}
 
